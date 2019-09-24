@@ -6,21 +6,38 @@
 				vertical-align: super;
 				font-size: smaller;
 			}
-
-			welcome { 
+			#welcome { 
 				color: lightgreen;
+				font-family:sans-serif;
 			}
-
+			body{
+			    background-color:#4a4a4a;
+			    padding:1em;
+			    padding-bottom:100%;
+			    border:1em double lightgreen;
+			}
+			iframe{
+                border-width: 15px;
+                border-style: solid;
+                border-color: #90EE90;
+                border-radius: 0px; 
+                width:94%;
+			}
 		</style>
 		<title>
-			Dangsta Wars_ 
+			unknown_game
 		</title>
 	</head>
-	<body style="background: url(gameLogo.png)">
-		<p>
-			<welcome>
-				Welcome to Dangsta Wars_ 
-			</welcome>
-		</p>
+	<body>
+	    <div>
+	        <h1 id='welcome' align='center'>
+			    Welcome to unknown_game
+    		</h1>
+	    	<iframe style='height:340px'>
+                <html id='game'>
+		        
+		        </html>
+		    </iframe>
+	    </div>
 	</body>
 </html>
