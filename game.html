@@ -10,7 +10,7 @@
 			#welcome { 
 				color: lightgreen;
 				font-family:monospace;
-                		font-size: 30px;
+                font-size: 30px;
 			}
 			
 			body {
@@ -21,15 +21,15 @@
 				border-radius: 15px;	
 			}
 			
-			iframe {
-                		border-width: 15px;
+			#game {
+                border-width: 15px;
 				border-style: solid;
 				border-color: darkgrey;
 				border-radius: 15px; 
 				width:98%;
 			}
 			
-		        #credit {
+			#credit {
 				color: lightgreen;
 				font-family:monospace;
                 		font-size: 15px;
@@ -49,6 +49,16 @@
 			.button:hover {
 				background-color: grey;
 			}
+			
+			#link {
+			    color:lightgreen;
+			    border: 3px double lightgreen;
+                border-radius: 15px;
+                padding:5px;
+                margin:4px;
+                margin-top:4px;
+			}
+			
 		</style>
 		<title>
 			unknown_game
@@ -57,23 +67,35 @@
 	<body>
 		<div>
 			<h1 id='welcome' align='center'>
-				Dangsta_Wars
+				unknown-game
 			</h1>
-			<iframe style='height:675px'>
-				<html id='game'>
-					<div id='buttonContainer'>
-						<button id='button1' class='button'>2 player</button>
-						<button id='button2' class='button'>3 player</button>
-						<button id='button3' class='button'>4 player</button>
-					</div>
-				</html>
-			</iframe>
-	    	</div>
+			<div id='game' style='height:260px;'>
+				<div id='buttonContainer' align='center'>
+                    <!--<input type='button' id='button1' class='button' val='2 player'>
+                    <input type='button' id='button2' class='button' val='3 player'>
+                    <input type='button' id='button3' class='button' val='4 player-->
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <button id='button1' class='button'>2 player</button>
+                    <button id='button2' class='button'>3 player</button>
+                    <button id='button3' class='button'>4 player</button>
+				</div>
+			</div>
+        </div>
 		<p id='credit'>
-			This game is created and owned by Demented Studios (ML-10 and AVRAAJ). unknown-game is a open-source game.
-		</p>
-		<p id='credit'>
-        		Date created: N/A
-        	</p>				
+			This game is created and owned by Demented Studios (ML-10 and AVRAAJ). <br/>unknown-game is a open-source game.<br/>
+            Date created: N/A<br/><br/>
+			Source code is <a href='https://github.com/ML-10/unknown-game' id='link'>here</a>.
+        </p>				
 	</body>
 </html>
