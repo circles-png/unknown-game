@@ -1,65 +1,9 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<style>
-			sup {
-				vertical-align: super;
-				font-size: smaller;
-			}
-			
-			#welcome { 
-				color: lightgreen;
-				font-family:monospace;
-                		font-size: 30px;
-			}
-			
-			body {
-				background-color:#4a4a4a;
-				padding:1em;
-				padding-bottom:25%;
-				border:1em double grey;
-				border-radius: 15px;	
-			}
-			
-			#game {
-                		border-width: 15px;
-				border-style: solid;
-				border-color: darkgrey;
-				border-radius: 15px; 
-				margin: 10px;
-			}
-			
-			#credit {
-				color: lightgreen;
-				font-family:monospace;
-                		font-size: 15px;
-			}  
-			
-			.button{
-				background-color: black;
-				border: none;
-				font-family:monospace;
-				color: lightgreen;
-				padding: 8px 8px;
-				text-align: center;
-				font-size: 14px;
-				cursor: pointer;
-			}
-
-			.button:hover {
-				background-color: grey;
-			}
-			
-			#link {
-				color:lightgreen;
-				border: 3px double lightgreen;
-                		border-radius: 15px;
-				padding:5px;
-                		margin:4px;
-                		margin-top:4px;
-			}
-			
-		</style>
+		<link rel='stylesheet' type='text/css' href='sheet.css' />
+		<script src='jquery-3.4.1.min.js'></script>
+		<script type='text/javascript' src='script.js'></script>
 		<title>
 			unknown_game
 		</title>
@@ -71,21 +15,7 @@
 			</h1>
 			<div id='game' style='height:260px;'>
 				<div id='buttonContainer' align='center'>
-					<!--<input type='button' id='button1' class='button' val='2 player'>
-					<input type='button' id='button2' class='button' val='3 player'>
-					<input type='button' id='button3' class='button' val='4 player-->
-					<br/>
-					<br/>
-					<br/>
-					<br/>
-					<br/>
-					<br/>
-					<br/>
-					<br/>
-					<br/>
-					<br/>
-					<br/>
-					<br/>
+					<div id='character'></div>
 					<button id='button1' class='button'>2 player</button>
 					<button id='button2' class='button'>3 player</button>
 					<button id='button3' class='button'>4 player</button>
