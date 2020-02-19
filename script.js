@@ -1,17 +1,18 @@
 window.onload = function(){
-  b1 = document.getElementById('button1');
-  b2 = document.getElementById('button2');
-  b3 = document.getElementById('button3');
-  game = document.getElementById('game');
-  b1.onclick = start();
-  b2.onclick = start();
-  b3.onclick = start();  
+  var buttons = [
+    document.getElementById('button1'),
+    document.getElementById('button2'),
+    document.getElementById('button3')
+  ];
+
+  var game = document.getElementById('game');
+  buttons[0].onclick = start();
+  buttons[1].onclick = start();
+  buttons[2].onclick = start();
 };
 
 function start(players){
-  b1.remove();
-  b2.remove();
-  b3.remove();
+  buttons.remove();
   game.style.transition = backgroundColor 3s;
   game.style.backgroundColor = white;
   switch (players) {
