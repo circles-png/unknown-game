@@ -1,9 +1,4 @@
-sup {
-	vertical-align: super;
-	font-size: smaller;
-}
-
-#welcome { 
+#welcome {
 	color: lightgreen;
 	font-family:monospace;
 	font-size: 30px;
@@ -14,22 +9,23 @@ body {
 	padding:1em;
 	padding-bottom:25%;
 	border:1em double grey;
-	border-radius: 15px;	
+	border-radius: 15px;
 }
 
 #game {
 	border-width: 15px;
 	border-style: solid;
 	border-color: darkgrey;
-	border-radius: 15px; 
+	border-radius: 15px;
 	margin: 10px;
+	height: 80%;
 }
 
 #credit {
 	color: lightgreen;
 	font-family:monospace;
 	font-size: 15px;
-}  
+}
 
 .button{
 	background-color: black;
@@ -43,7 +39,7 @@ body {
 }
 .button:hover {
 	background-color: grey;
-                     padding: 11px 11px;
+  padding: 11px 11px;
 }
 
 #link {
