@@ -37,6 +37,14 @@ $(document).ready(function($) {
     $('#button2'),
     $('#button3')
   ];
+<<<<<<< Updated upstream
+=======
+  $('#frame').css('display', 'none')
+  $('#button1, #button2, #button3').click(function () {
+    $("#buttonContainer").remove();
+    $('#frame').css('display', 'block')
+  });
+>>>>>>> Stashed changes
 });
 
 $('#button1, #button2, #button3').on('click', function () {

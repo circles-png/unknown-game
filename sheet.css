@@ -54,3 +54,12 @@ body {
 	margin:4px;
 	margin-top:4px;
 }
+
+#buttonContainer {
+	margin: 20px;
+}
+
+iframe {
+	align-self: center;
+	margin: 1em;
+}
