@@ -13,8 +13,8 @@ window.onload = function(){
 
 function start(players){
   buttons.remove();
-  game.style.transition = backgroundColor 3s; // FIXME: open in browser to see error in dev tools
-  game.style.backgroundColor = white;
+  game.style.transition = "backgroundColor 3s"; // FIXME: open in browser to see error in dev tools
+  game.style.backgroundColor = "white";
   switch (players) {
     case 2:
       // TODO: add stuff
