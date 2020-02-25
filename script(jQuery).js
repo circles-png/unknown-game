@@ -37,11 +37,11 @@ $(document).ready(function($) {
     $('#button2'),
     $('#button3')
   ];
+  
   $('#frame').css('display', 'none')
   $('#button1, #button2, #button3').click(function () {
     $("#buttonContainer").remove();
-    $('#game').css('transition','backgroundColor 3s');
-    $('#game').css('backgroundColor', 'white');
     $('#frame').css('display', 'block')
   });
+
 });
